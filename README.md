@@ -41,7 +41,27 @@ The data folder consists of two folders and two .csv files. The details are as f
 
 
 
-## Results 
-```
+## Architecture 
+Given below shows the basic architecture implemented along with ResNet50.
+<img src="https://github.com/GusainAshish17/a/blob/master/model_plot.png?raw=true" width="410">
 
+
+
+## Working
+* The input images used are all 224 x 224 x 3 in shape.
+* The end layers of the ResNet50 are removed.
+* The last convolutional layer left is completely flattened into a functional layer.
+* The end 10 layers are unfreezed and their weights changes while training.
+* Now, 2 more functional layers of 1024 and 512 neurons are added.
+* Both of them includes a dropout of 50% neurons in each propagation.
+* At the end, we have a softmax classification layer with 8 neurons to predict output.
+
+
+
+## Results
+```
+The test accuracy finally received is 82.5%.
+As the number of training images are only 356 and the number of classes are 8, 82.5% seems to be 
+a decent accuracy. Image augmentation played a major role in the entire training.
+Exact code can be seen in danceForms.ipynb file.
 ```
