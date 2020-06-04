@@ -23,7 +23,6 @@ The eight categories of Indian classical dance are as follows:
 
 
 <br />
-<br />
 
 ## Data Description
 This data set consists of the following two columns:
@@ -34,7 +33,7 @@ Image  | Name of Image
 Target  | 	Category of Image ['manipuri','bharatanatyam','odissi','kathakali','kathak','sattriya','kuchipudi','mohiniyattam']
 
 The data folder consists of two folders and two .csv files. The details are as follows:
-* **train** : Contains 364 images for 8 classes ['manipuri','bharatanatyam','odissi','kathakali','kathak','sattriya','kuchipudi','mohiniyattam']
+* **train** : Contains 364 images for 8 classes
 * **test**: Contains 156 images
 * **train.csv**: 364 x 2
 * **test.csv**: 156 x 1
