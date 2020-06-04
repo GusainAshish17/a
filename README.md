@@ -8,8 +8,8 @@ This International Dance Day, an event management company organized an evening o
 performances to celebrate the rich, eloquent, and elegant art of dance. 
 The task is to build a deep learning model that can help the company classify these images into 
 eight categories of Indian classical dance.
-The eight categories of Indian classical dance are as follows:
 ```
+The eight categories of Indian classical dance are as follows:
 * **Manipuri**
 * **Bharatanatyam**
 * **Odissi**
