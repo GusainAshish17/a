@@ -5,18 +5,20 @@ Classifying 8 different dance forms using transfer learning, while utilizing pre
 ## Problem statement
 ```
 This International Dance Day, an event management company organized an evening of Indian classical dance 
-performances to celebrate the rich, eloquent, and elegant art of dance. The task is to build a deep learning 
-model that can help the company classify these images into eight categories of Indian classical dance.
+performances to celebrate the rich, eloquent, and elegant art of dance. 
+The task is to build a deep learning model that can help the company classify these images into 
+eight categories of Indian classical dance.
 The eight categories of Indian classical dance are as follows:
-Manipuri
-Bharatanatyam
-Odissi
-Kathakali
-Kathak
-Sattriya
-Kuchipudi
-Mohiniyattam
 ```
+* **Manipuri**
+* **Bharatanatyam**
+* **Odissi**
+* **Kathakali**
+* **Kathak**
+* **Sattriya**
+* **Kuchipudi**
+* **Mohiniyattam**
+
 
 
 
