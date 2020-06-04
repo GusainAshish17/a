@@ -22,6 +22,8 @@ The eight categories of Indian classical dance are as follows:
 
 
 
+<br />
+<br />
 
 ## Data Description
 This data set consists of the following two columns:
