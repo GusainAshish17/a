@@ -27,32 +27,34 @@ Kuchipudi
 Mohiniyattam
 ```
 
-
+### Project Structure:
+* **lanes**:This folder contains files related to lane detection only.
+* **tf-color**: This folder contains files related to traffic light detection and detect the colour and accordingly give instructions to the driver.
+* **tracked**: This folder contains detection and tracking algorithm for the vehicles.
+* **untracked**: Detection and visualization only
+* **utils**: contains various functions that are used continuously again and again for different frames.
+* **estimations**: Detect pedestrians and vehicles too close to us that may cause collision.
+* **cropping**: Cropping frames using drag and drop or clicking points.
+* **display**: All the gifs shown above are stored here.
 
 ## Data Description
-```
-This data set consists of the following two columns:
-```
 
-Column Name  | Description
+Column Name | Description
 ------------- | -------------
 Image  | Name of Image
 Target  | 	Category of Image ['manipuri','bharatanatyam','odissi','kathakali','kathak','sattriya','kuchipudi','mohiniyattam']
 
-```
+This data set consists of two columns shown above:
 The data folder consists of two folders and two .csv files. The details are as follows:
-train: Contains 364 images for 8 classes ['manipuri','bharatanatyam','odissi','kathakali','kathak','sattriya','kuchipudi','mohiniyattam']
-test: Contains 156 images
-train.csv: 364 x 2
-test.csv: 156 x 1
-```
+* **train** : Contains 364 images for 8 classes ['manipuri','bharatanatyam','odissi','kathakali','kathak','sattriya','kuchipudi','mohiniyattam']
+* **test**: Contains 156 images
+* **train.csv**: 364 x 2
+* **test.csv*8: 156 x 1
+
+
+
 
 ## Results 
 ```
 
 ```
-
-<img src="https://github.com/AshisghGusain17/Vehicle-Warning-Indicator-System/blob/master/display/tracking1.gif?raw=true" width="410">|
-<img src="https://github.com/AshishgGusain17/Vehicle-Warning-Indicator-System/blob/master/display/tracking2.gif?raw=true" width="410">
-
-[Watch the complete video](https://youtu.be/LHlgFDLzG00)
